@@ -1,0 +1,16 @@
+a,b,c,d=int(input('enter a number: '))
+avg=(a+b+c+d)/4
+print(f"Your average score is: "+str(avg))
+
+if(avg>=80):
+    print("You're an outstanding student")
+elif(70<=avg<=80):
+    print("You are a good student")
+elif(60<=avg<=70):
+    print("You are an average student")
+elif(50<=avg<=60):
+    print("You are a below-average student")
+elif(40<=avg<=50):
+    print("You are a poor student")
+elif(avg<40):
+    print("Work hard")
