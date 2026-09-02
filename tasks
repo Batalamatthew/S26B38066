@@ -1,0 +1,20 @@
+subject1=int(input('enter score in test-I : '))
+subject2=int(input('enter score in test-II : '))
+subject3=int(input('enter score in test-III : '))
+subject4=int(input('enter score in test-IV : '))
+subject5=int(input('enter score in test-V : '))
+avg=(subject1 + subject2 + subject3 + subject4 + subject5)/5
+print(f"Your average score is {avg}")
+
+if avg>=80:
+    print("You're an outstanding student")
+if 70<=avg<=80:
+    print("You are a good student")
+if 60<=avg<=70:
+    print("You are an average student")
+if 50<=avg<=60:
+    print("You are a below-average student")
+if 40<=avg<=50:
+    print("You are a poor student")
+if avg<40:
+    print("Work hard")
